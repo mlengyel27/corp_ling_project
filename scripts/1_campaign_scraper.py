@@ -109,4 +109,4 @@ def campaign_scraper(president_name, filepath, title_as_filename, title_included
     print("Number of texts retrieved", pres_name, ":", success_counter)
 
 # input president's family name, desired filepath, title params)
-campaign_scraper("Trump", 'D:/Dokumentumok/egyetemek/AdvancedMA/corp_ling/project/data', title_as_filename=True, title_included=False)
+campaign_scraper("Trump", '/data', title_as_filename=True, title_included=False)
