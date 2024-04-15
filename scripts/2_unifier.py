@@ -21,6 +21,6 @@ def unifier(folder_path, unified_file_name):
         unified_file.write(unified_contents)
 
 # set folder path and filename here
-folder_path = r'D:\Dokumentumok\egyetemek\AdvancedMA\corp_ling\project\data\Trump'
+folder_path = r'\data\Trump'
 unified_file_name = "Trump_unified.txt"
 unifier(folder_path, unified_file_name)
